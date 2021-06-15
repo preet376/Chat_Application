@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149901933556",
+    "project_id": "chattingapp-960a4",
+    "storage_bucket": "chattingapp-960a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149901933556:android:865c0bed92210e402d17a1",
+        "android_client_info": {
+          "package_name": "com.chatapp.pritesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149901933556-cftj7klaersm4qh8gg15bqpqhthu3n4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiOfKQqtSYBm9Qa5Nbk--N_FQJisTE74A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149901933556-cftj7klaersm4qh8gg15bqpqhthu3n4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

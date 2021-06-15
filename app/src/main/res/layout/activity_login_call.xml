@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".Activities.Login_call">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/privacy"
+        android:layout_above="@+id/tv_privacy"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/tv_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="For Security and Privacy Purpose"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_above="@+id/callerId">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/callerId"
+        android:layout_marginTop="10dp"
+        android:hint="Type 'a' and tell your friend to type 'b'"
+        android:layout_centerVertical="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipientId"
+        android:layout_below="@+id/callerId"
+        android:hint="Type 'b' and tell your friend to type 'a'"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:text="Let's Call"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/recipientId"/>
+
+
+</RelativeLayout>

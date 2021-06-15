@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    tools:context=".Activities.Call2">
+
+
+    <ImageView
+        android:id="@+id/talk"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/talk"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        >
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="360dp"
+        android:text="Let's Enjoy Calling"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/callState"
+        android:gravity="center"
+        android:layout_marginTop="410dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/button"
+        android:background="#181718"
+        android:textColor="#e1c2c2"
+        android:gravity="center"
+        android:layout_marginTop="450dp"/>
+
+</RelativeLayout>
