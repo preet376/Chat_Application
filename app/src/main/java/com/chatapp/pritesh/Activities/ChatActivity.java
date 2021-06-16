@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
 import androidx.annotation.NonNull;
@@ -89,13 +88,13 @@ public class ChatActivity extends AppCompatActivity {
         });
 
 
-        binding.camera.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Login_call.class);
-                startActivity(intent);
-            }
-        });
+//        binding.camera.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getApplicationContext(),Login_call.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
         receiverUid = getIntent().getStringExtra("uid");
@@ -340,19 +339,19 @@ public class ChatActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
-        switch (item.getItemId())
-        {
-            case R.id.audioCall :
-                Intent intent = new Intent(getApplicationContext(), Login_call.class);
-                startActivity(intent);
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//
+//        switch (item.getItemId())
+//        {
+//            case R.id.audioCall :
+//                Intent intent = new Intent(getApplicationContext(), Login_call.class);
+//                startActivity(intent);
+//                break;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     public boolean onSupportNavigateUp() {

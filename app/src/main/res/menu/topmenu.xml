@@ -9,7 +9,12 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/group"
-        android:title="Groups" />
+        android:title="Group Chatting" />
+
+    <item
+        android:id="@+id/groupCall"
+        android:title="Group Video Call" />
+
     <item
         android:id="@+id/invite"
         android:title="Invite" />

@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.chatapp.pritesh">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -17,8 +16,6 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,14 +24,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatsApp"
         android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.VideoCall"></activity>
         <activity android:name=".Activities.GroupChatActivity" />
         <activity
             android:name=".Activities.ChatActivity"
             android:theme="@style/Theme.ChatsApp.NoActionBar" />
-
-        <activity android:name=".Activities.Login_call"></activity>
+        <activity android:name=".Activities.Login_call" />
         <activity android:name=".Activities.Call2" />
-
         <activity android:name=".Activities.SetupProfileActivity" />
         <activity
             android:name=".Activities.OTPActivity"

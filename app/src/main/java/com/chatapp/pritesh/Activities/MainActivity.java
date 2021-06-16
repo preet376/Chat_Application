@@ -237,6 +237,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.group:
+
                 startActivity(new Intent(MainActivity.this, GroupChatActivity.class));
                 break;
             case R.id.search:
@@ -244,6 +245,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.settings:
                 Toast.makeText(this, "Settings Clicked.", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.groupCall:
+
+                Intent intent = new Intent(MainActivity.this,VideoCall.class);
+                startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);
