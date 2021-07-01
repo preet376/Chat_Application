@@ -9,6 +9,6 @@ In this application I used the Firebase as a backend...
 * User can send the images to friends
 * Providing reacting emojis on messages which is similar as FB messenger
 * Deleting messages option such as Delete for me or Delete for Everyone
-* Calling feature
+* Calling feature (Audio and Video)
  
 Hope you like it and Happy Coding :)
